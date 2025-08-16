@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.7"
 
-  spec.add_dependency "sidekiq", ">= 6.2.2", "<8"
+  spec.add_dependency "sidekiq", ">= 6.2.2", "<9"
 
   spec.add_development_dependency "honeycomb-beeline", "~> 2"
   spec.add_development_dependency "pry", "~> 0.14"
